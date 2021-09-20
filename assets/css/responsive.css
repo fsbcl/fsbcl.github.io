@@ -1,0 +1,283 @@
+/*
+***************************************************************
+***************************************************************
+
+Template Name  : INSPIRE | One Page Multipurpose Template
+Author         : Golam
+Author URI     : http://golamnabi.com
+File           : Responsive.css
+
+
+
+*================================================================== -->
+* Medium Screen [992px into 1280px]
+*================================================================== -->
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+    .main-menu .navbar-nav li a {
+        padding: 27px 12px;
+        letter-spacing: 0;
+    }
+    .wellcome-item h2,
+    .single-slide-item h2 {
+        font-size: 42px;
+    }
+    .section-heading p {
+        padding: 0 130px;
+    }
+    .about-img {
+        margin-top: 95px;
+    }
+    .single-project-item,
+    .single-contact-item {
+        padding: 14px;
+    }
+    .single-project-item h2,
+    .single-project-item h5,
+    .single-contact-item h5,
+    .single-contact-item h6,
+    .contact-form h5 {
+        font-size: 16px;
+    }
+    .single-blog-item h4 {
+        font-size: 18px;
+    }
+    .single-blog-content h3 {
+        font-size: 24px;
+    }
+}
+
+
+/*
+*================================================================== -->
+* Tablet Screen [768px into 991px]
+*================================================================== -->
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-top-text,
+    .text-right .social-links,
+    .cta-area h3,
+    .text-right .inspire-btn,
+    .text-right {
+        text-align: center;
+    }
+    .logo {
+        width: 80%;
+    }
+    .main-menu .navbar-nav li a {
+        font-size: 12px;
+        padding: 24px 6px;
+        letter-spacing: 0;
+    }
+    .about-intro,
+    .section-heading p {
+        padding: 0;
+    }
+    .cta-area h3,
+    .text-right .inspire-btn {
+        margin-top: 20px;
+    }
+    .single-project-item,
+    .single-contact-item {
+        margin-bottom: 30px;
+    }
+    .single-contact-item {
+        padding: 10px;
+    }
+    .single-contact-item h5 {
+        font-size: 15px;
+    }
+    
+    ul.social-links {
+        padding: 10px 0;
+    }
+    .single-blog-content h3 {
+        font-size: 24px;
+    }
+    .single-blog-content {
+        padding-right: 0;
+    }
+
+}
+
+
+/*
+*================================================================== -->
+* Mobile Screen [320px into 767px]
+*================================================================== -->
+*/
+
+@media only screen and (max-width: 767px) {
+    /*=========== BOOTSTRAP NAVBAR CSS =============
+===============================================*/
+    .navbar {
+        min-height: 0;
+    }
+    .navbar-toggle {
+        border: 1px solid #2ECC71;
+        margin-top: -55px;
+        margin-right: 0;
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #2ECC71;
+    }
+    .navbar-collapse {
+        border-top: 0px solid;
+        box-shadow: inherit;
+    }
+    .navbar-collapse.in {
+        min-height: 375px;
+    }
+    .header-top-text,
+    .text-right .social-links,
+    .cta-area h3,
+    .text-right .inspire-btn,
+    .text-right {
+        text-align: center;
+    }
+    .header-top-text span {
+        margin-right: 10px;
+    }
+    .logo {
+        width: 50%;
+    }
+    .main-menu {
+        background-color: #2ECC71;
+    }
+    .main-menu .navbar-nav li {
+        display: block;
+    }
+    .main-menu .navbar-nav li a {
+        font-size: 14px;
+        padding: 12px 10px;
+        letter-spacing: 0;
+    }
+    .main-menu .navbar-nav li a:before {
+        background-color: inherit;
+        position: inherit;
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        visibility: hidden;
+    }
+    .main-menu .navbar-nav li:hover a {
+        color: #fff;
+    }
+    .wellcome-item,
+    .video-content-wrap,
+    .single-slide-item,
+    .video-content-wrap {
+        height: 508px;
+    }
+    .wellcome-item h3,
+    .single-slide-item h3,
+    .video-content-wrap h3 {
+        font-size: 20px;
+    }
+    .wellcome-item h2,
+    .single-slide-item h2,
+    .video-content-wrap h2 {
+        font-size: 25px;
+    }
+    .wellcome-item p,
+    .single-slide-item p,
+    .video-content-wrap p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .inspire-btn {
+        padding: 10px 16px;
+        font-size: 14px;
+        margin-right: 0;
+    }
+    .about-us-area,
+    .section-padding {
+        padding: 50px 0 30px;
+    }
+    .about-intro,
+    .section-heading p {
+        padding: 0;
+    }
+    #accordion {
+        padding: 0;
+    }
+    .panel-body {
+        padding: 10px 0 10px 20px;
+    }
+    .panel-body:before {
+        left: 0;
+    }
+    h4.panel-title {
+        font-size: 12px;
+    }
+    .section-heading h3 {
+        font-size: 24px;
+    }
+    .single-service-item,
+    .brand-desc,
+    .single-blog-item,
+    #map {
+        margin-top: 20px;
+    }
+    .single-blog-item {
+        margin-bottom: 50px;
+    }
+    .cta-area h3,
+    .text-right .inspire-btn {
+        margin-top: 20px;
+    }
+    .single-project-item,
+    .single-contact-item {
+        margin-bottom: 30px;
+    }
+    .single-contact-item {
+        padding: 10px;
+    }
+    .single-contact-item h5 {
+        font-size: 15px;
+    }
+    .slider-wrapper .carousel-indicators {
+        bottom: 32px;
+    }
+    .slider-wrapper .slider-nav {
+        position: inherit;
+        width: 0;
+        height: 0;
+        line-height: 0;
+        border-radius: inherit;
+        background: #fff;
+        color: #fff;
+        font-size: 0;
+        top: auto;
+        left: auto;
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    ul.social-links {
+        padding: 10px 0;
+    }
+    .blog-content-area .single-blog-content h3 {
+        font-size: 16px;
+    }
+    .single-blog-content {
+        padding-right: 0;
+    }
+    .blog-content-area  .entry-meta span {
+        font-size: 12px;
+    }
+    blockquote {
+        padding: 22px;
+    }
+
+}
+
+
+/*
+*================================================================== -->
+* Wide Mobile Screen [480px into 767px]
+*================================================================== -->
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
